@@ -1,0 +1,42 @@
+div.card {
+  height: 370px;
+  width: 270px;
+  padding: 10px;
+  margin: 10px;
+  border: solid gray 1px;
+  border-radius: 4px;
+  overflow-x: scroll;
+  position: relative;
+}
+
+div.card img#prdcimg {
+    height: 190px;
+    width: 100%;
+}
+
+div.card button#deleteButton {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  border: none;
+  background: rgb(101, 101, 101);
+  color: white;
+  position: absolute;
+  right: 10px;
+}
+
+div.card button#buyButton{
+  width: 90px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background: #f8690b;
+  color: white;
+  position: absolute;
+  right: 15px;
+  bottom: 3%;
+
+
+}
+
+

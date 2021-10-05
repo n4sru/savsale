@@ -1,0 +1,458 @@
+h1 {
+  border-top: 5px solid #f8690b;
+}
+
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff00;
+  bottom: 85px;
+  right: 5px;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f8690b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;  
+}
+
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ffffff00;
+  color: #ffffff;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+} 
+
+/*after certain size the text will dissappear*/
+
+@media screen and (max-width: 700px) {
+  .h2txt {
+    display: none;
+  }
+}
+
+
+.addbtn {
+  background-color: #f8690b;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  height: 40px;
+  width: 170px;
+  position: flex;
+}
+
+
+.addbtn[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.cardbtn {
+  color: #ffffff;
+  background-color: #56d4c2;
+  border: none;
+}
+
+.inputText {
+  grid-row: 2;
+  margin-bottom: 0;
+  padding-top: 45px;
+  width: 80%;
+}
+
+.inputContent {
+  grid-row: 2;
+  margin-bottom: 0;
+  padding-top: 45px;
+  width: 80%;
+}
+
+.cardSection {
+  grid-column: 1/6;
+  grid-row: 3;
+  grid-gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* */
+
+/*bacground på knappen*/
+
+section#cardarticle {
+  display: flex;
+  flex-basis: 270px;
+  flex-wrap: wrap;
+  margin-right: 3%;
+}
+
+.container {
+  margin-top: 3%;
+  position: flex;
+  top: 11%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 170px;
+  height: 75%;
+  padding: 25px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+}
+
+.imageContainer {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 11%;
+  width: 100%;
+  height: 490px;
+  background-image: url(images/wallpapersv.jpeg);
+  
+}
+
+.top-left {
+  display: flex;
+  position: absolute;
+  bottom: 145px;
+  left: 420px;
+  color: #ffffff;
+  margin-left: 3%; 
+  margin-right:3%;
+  font-size: 60px; 
+  color: #ffffff;
+  font-size: 60px;
+  
+}
+
+.srchbtnstyle
+{
+  position: relative; 
+  align-content: center;
+  background-color: white; 
+  width: 400px; height: 35px; 
+  border-radius: 25px; left: 32%; 
+  margin-bottom: 25px;
+  display: flex;
+
+
+}
+
+.CatogoriButtn {
+  border-radius: 50px;
+  background: #f8690b;
+  width: 90px;
+  height: 90px;
+  border: none;
+  margin-right: 20px;
+  margin-top: 20px;
+  position: relative;
+  left: 25%;
+
+  margin-left: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  background-color: #f8690b;
+}
+
+
+.CenterMiddle {
+  position: relative;
+  bottom: 32%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  padding: 20px;
+	flex-wrap: nowrap;
+  
+}
+
+.flex-item {
+  padding: 20px;
+  color: white;
+}
+
+.flex-itemsrch{
+  flex: 0 1 auto; 
+
+}
+
+.textAndBttns {
+  margin-bottom: 30%;
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-top: 100px;
+  padding: 20px;
+  
+}
+
+.flex-container {
+  position: relative;
+  display: flex;
+  padding-right: 80px;
+  text-align: center;
+  width: auto;
+  bottom: 28%;
+
+}
+
+.footer {
+  position: relative;
+  grid-column: 1/6;
+  grid-row: 2;
+  grid-gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 23%;
+  margin-right: 10%;
+  flex-grow: 1;
+}
+
+.litxt{
+  color: #f8690b;
+  text-decoration:none;
+
+}
+
+.li{
+
+  width: 100%;
+  height: 35px;
+  color:rgb(12, 10, 10);
+  font-size:12px;
+  text-transform:uppercase;
+  margin-top:5px;
+  
+}
+
+.searchBtnn {
+  margin-top: 53px;
+  position: relative;
+  width: 80px;
+  height: 40px;
+  border-radius: 25px;
+  font-size: medium;
+  background-color: #f8690b;
+  color: white;
+  border: none;
+  bottom: 180px;
+  left: 24%;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.flex-containersrch{
+  display: flex;
+  padding-right: 95px;
+  text-align: center;
+
+}
+
+.searchBar {
+  outline-width: 0;
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+  background-color: white;
+  box-shadow: 1px 1px;
+  box-shadow: 0px 8px 16px #918f8f70;
+  border: none;
+  width: 495px;
+  height: 45px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  left: 25%;
+  bottom: 180px;
+  
+}
+
+.reset {
+  bottom: 121px;
+  position: relative;
+  width: 30px;
+  height: 25px;
+  border-radius: 25px;
+  font-size: medium;
+  background-color: #f86a0b;
+  color: white;
+  border: none;
+  right: 258px;
+}
+
+
+
+button.CatogoriButtn.view-all {
+  background-image: url(images/viewall.png);
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  padding: 2.6em 0 0;
+  color: white;
+  outline: none;
+}
+
+button.CatogoriButtn.home-category {
+  background-image: url(images/Sofa.png);
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  padding: 2.6em 0 0;
+  color: white;
+  outline: none;
+}
+
+button.CatogoriButtn.electronics-category {
+  background-image: url(images/elctronn.png);
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  padding: 2.6em 0 0;
+  color: white;
+  outline: none;
+}
+
+button.CatogoriButtn.clothing-category {
+  background-image: url(images/clothes.png);
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  padding: 2.6em 0 0;
+  color: white;
+  outline: none;
+}
+
+button.CatogoriButtn.clothing-category:hover {
+  cursor: pointer;
+  background-color: #F89900;
+  }
+
+  button.CatogoriButtn.electronics-category:hover {
+    cursor: pointer;
+    background-color: #F89900;
+    }
+
+    button.CatogoriButtn.home-category:hover {
+      cursor: pointer;
+      background-color: #F89900;
+      }
+
+      button.CatogoriButtn.view-all:hover {
+        cursor: pointer;
+        background-color: #F89900;
+        }
+
+        button.reset.undobtn:hover{
+          cursor: pointer;
+        background-color: #F89900;
+        }
+
+        #overlay {
+          position: fixed;
+          display: none;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: rgba(0, 0, 0, 0.856);
+          z-index: 2;
+          cursor: pointer;
+        }
+        
+        .buyerclass{
+          position: relative;
+          left: 40%;
+          top: 40%;
+          margin-top: 20px;
+         
+        }
+        
+        .buybtn{
+          position: relative;
+          background-color: #f8690b;
+          border: none;
+          color: white;
+          border-radius: 8px;
+          height: 22px;
+          width: 150px;
+          position: flex;
+          margin-top: 25px;
+          margin-left: 15px;
+          align-content: flex-end;
+          right: 3%;
+        
+        
+        }
+        
+        .inputbuyer{
+          position: relative;
+          width: 250px;
+          height: 25px;
+          color:black; border-radius: 25px;
+          align-content: center;
+          
+        
+        
+        }
+
+        .copyright-text {
+          position: relative;
+          left: 10%;
+
+      }
+
+
+    
+  

@@ -1,0 +1,135 @@
+<html lang="no">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scom</title>
+  <link href="style.css" rel="stylesheet" />
+  <link href="card.css" rel="stylesheet" />
+</head>
+
+
+<body>
+  <header>
+    <nav>
+      <div class="topnav">
+        <image src="savsale.jpg" style="width: 185px;"></image>
+        <image src="sell.jpeg" ></image>
+        <div id="myLinks">
+          <a href="#news">News</a>
+          <a href="#contact">Contact US</a>
+          <a href="#contact">Collect Destination</a>
+          <a href="#about">About</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <br></br>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+
+  <!--resten-->
+
+  <!--random popular shitt-->
+
+
+  <main>
+    <form class="form" action="index.html" method="post">
+      <input id="productImage" name="productImage" type="file" />
+      <label style="font-size:20px;">Product</label>
+      <form action="/action_page.php">
+        <br>
+        <label for="productName">Name of the product:</label><br>
+        <input type="text" id="productName" name="productName" value=""><br>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="" /><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br>
+        <label for="lname">Collect Destination:</label><br>
+        <input type="text" id="collctid" name="lname" value=""><br>
+        <!--collecting areas will be named after us-->
+        <label for="lname">Phone number</label><br>
+        <a href="Click here to know about collecting areas"></a>
+        <input type="text" id="phnmbr" name="lname" value=""><br>
+      </form>
+      <input id="txtarea" class="inputText">
+      <br><br>
+      <button type="button" class="addbtn" id="btnadd">Add</button>
+    </form>
+
+    <!--recent-->
+
+    <h1 id="section-title">Recent Items for sale</h1>
+
+    <div class="cardblokkdiv">
+      <section id="cardarticle">
+      </section>
+    </div>
+
+
+    <!-- 
+        <article>
+          <h2 class="cardTitle">Item for sale</h3>
+          <p >
+            I'm baby sriracha hot chicken mixtape pabst organic air …
+          </p>
+          <button class="cardbtn">Complete</button>
+        </article>
+        <article>
+          <h2 class="cardTitle">Todotitle</h3>
+          <p >
+            I'm baby sriracha hot chicken mixtape pabst organic air …
+          </p>
+          <button class="cardbtn">Complete</button>
+    </article>
+    </section> -->
+
+  </main>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBzqbE4LgHkUVw9FBxJ-u2it-usNNyu0WY",
+    authDomain: "savsale-e2e9f.firebaseapp.com",
+    projectId: "savsale-e2e9f",
+    storageBucket: "savsale-e2e9f.appspot.com",
+    databaseURL: "https://savsale-e2e9f-default-rtdb.firebaseio.com/",
+    messagingSenderId: "541940745557",
+    appId: "1:541940745557:web:a0c66b06e17d19fa2cdbdc",
+    measurementId: "G-YDTGGWYDF8"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+  <script type="text/javascript" src="data-services.js"></script>
+  <script type="text/javascript" src="cards.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+
+</body>
+
+</html>

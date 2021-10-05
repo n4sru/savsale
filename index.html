@@ -1,0 +1,235 @@
+<html lang="no">
+  <h1></h1>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="/savale.jpg"/>
+  <title>Savsale</title>
+  <link href="style.css" rel="stylesheet" />
+  <link href="card.css" rel="stylesheet" />
+
+  <script data-ad-client="ca-pub-2814687957475757" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body>
+  <image src="images/savsale.jpg" style="width: 150px; position: relative; left: 13%; bottom: 2%;"></image>
+  <div class="topnav" id="myTopnav">
+    <div class="logo"></div>
+    <a href="#home" class="active"></a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="dropDown()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+  <script>
+  function dropDown() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+    
+      
+    
+      <div class="imageContainer"> 
+       
+        <div class="top-left"> <h2 class="h2txt" style="font-size: 70px; ">  Smile there's better days ahead</h2</div> 
+      
+      </div>
+
+  <br></br>
+
+  <!--resten-->
+
+
+  
+  <form class="container" action="index.html" method="post">
+    <input id="productImage" name="productImage" type="file" multiple />
+    <form action="/action_page.php">
+      <br></br>
+       <input placeholder="First name" type="text" id="fname" name="fname" value="" required />
+      <input placeholder="Last name" type="text" id="lname" name="lname" value="" required>
+      <input placeholder="Product name" required="required"  type="text" id="productName" name="productName" value="">
+      <input placeholder="Price" type="number" id="price" name="price" value="" /><br>
+      <label for="cars">Collect Destination:</label> <br>
+      <select name="cars" id="collctid" style="width: 150px;"><br>
+        <option value="B.1">b.1</option>
+        <option value="b.2">b.2</option>
+        <option value="b.3">b.3</option>
+        <option value="b.4">b.4</option>
+      </select><br>
+      <label for="category">Category:</label><br>
+      <select id="category" name="category" style="width: 150px;">
+        <option value="home">Home</option>
+        <option value="clothing">Clothing</option>
+        <option value="electronics">Electronics</option>
+      </select>
+      <br> </br>
+      <!--collecting areas will be named after us-->
+      <a href="Click here to know about collecting areas"></a>
+      <input placeholder="Phone number" type="text" id="phnmbr" name="lname" value=""><br></br>
+      <input class="input" rows="8" id="txtarea" class="inputText" placeholder="Descripe your product" style="height: 45px;"><br></br>
+      <button type="button" class="addbtn" id="btnadd">Ready for sale</button>
+    </form>
+  </form>
+
+
+  
+  </div>
+
+  <br></br>
+
+ 
+    <!-- størrelse 230px-->
+        
+    <!-- <div class="textAndBttns"> -->
+
+      <div class="flex-containersrch" >
+      
+        <input class="searchBar" type="text" id="srchbar" placeholder="What are you looking for?" title="Type in a name">  </input> 
+        <button id="srchBtnn" class=" flex-itemsrch flex-shrink-1 searchBtnn">Search</button>
+        <Button class="reset undobtn" id="resetbtn"> X </Button>
+
+      </div>
+      <div class="flex-container">
+        <Button class="CatogoriButtn clothing-category" data-category="clothing"> Clothes</Button>
+        <Button class="CatogoriButtn electronics-category" data-category="electronics">Electronic</Button>
+        <Button class="CatogoriButtn home-category" data-category="home">Home</Button>
+        <Button class="CatogoriButtn view-all" data-category=""> Show all</Button>
+          </div>
+
+    <h2 id="section-title" style="margin-left: 14%; font: inherit; font-size: 30px; position: relative; bottom: 210px;">Recent Items for sale </h2>
+    
+    
+    
+    <div class="CenterMiddle">
+     <!--recent-->
+     <div id="nosrchresult" style="display: none;">
+      <h3>Theres no result of the product you are looking for</h3>
+    </div>
+     <span id="Itemsale" class="cardblokkdiv">
+          <!--section can be used to hide the card-->
+      <section id="cardarticle"> </section>
+      
+     </span>
+
+    <!-- </div> -->
+    </div>
+
+<h1></h1>
+
+<div class="footer">
+
+  
+   
+    <ul >
+      <h4>About</h4>
+      <li class="li" style="color: #f8690b;"><a href="http://scanfcode.com/category/c-language/" class="litxt" >About us</a></li>
+      <li class="li"><a href="http://scanfcode.com/category/front-end-development/" class="litxt">Savsale</a></li>
+      <li class="li"><a href="http://scanfcode.com/category/back-end-development/" class="litxt">Something</a></li>
+    </ul>
+  
+ 
+  <ul >
+    <h4>Security</h4>
+    <li class="li"><a href="http://scanfcode.com/category/c-language/" class="litxt">Scam</a></li>
+    <li class="li"><a href="http://scanfcode.com/category/front-end-development/" class="litxt">Calls</a></li>
+    <li class="li"><a href="http://scanfcode.com/category/back-end-development/" class="litxt">Users</a></li>
+  </ul>
+
+  <ul >
+    <h4>Sell</h4>
+    <li class="li"><a href="http://scanfcode.com/category/c-language/" class="litxt">How to sell</a></li>
+    <li class="li"><a href="http://scanfcode.com/category/front-end-development/" class="litxt">How does</a></li>
+    <li class="li"><a href="http://scanfcode.com/category/back-end-development/" class="litxt">somethin</a></li>
+  </ul>
+
+  <ul >
+    <h4>Buy</h4>
+    <li class="li"><a href="http://scanfcode.com/category/c-language/" class="litxt">How to buy</a></li>
+    <li class="li"><a href="http://scanfcode.com/category/front-end-development/" class="litxt">Where do i get</a></li>
+    <li class="li"><a href="http://scanfcode.com/category/back-end-development/" class="litxt">Payment</a></li>
+  </ul>
+
+  
+  
+</div>
+<footer class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+  <a href="#">Savsale</a>.
+</footer>
+
+ <!--overlay text-->
+
+ <div id="overlay">
+    
+
+  <h2 style="color: #f8690b; position: absolute; left: 40%; top: 10%;font-size: 55px">Click & get</h2>
+  <h5 style="color: white; position: absolute; left: 35%; top: 30%; font-size: 16px"> You are almost there, tell us about your contact information.<br></br> And we will reserve the product for you
+    .When your product is ready we will call you.
+  </h5>
+  <br> </br>
+  <div class="buyerclass">
+     <form>
+    <input class="inputbuyer" type="text" id="buyerName" name="bName" placeholder="First name" value="" /><br>
+    <br></br>
+    
+    <input class="inputbuyer" type="text" id="Blname" name="Blname" placeholder="Last name" value="" /><br>
+    <br></br>
+    <input class="inputbuyer" type="text" id="phNmbr" name="phNmbr" placeholder="Phone number" value=""><br>
+    <br></br>
+
+    <select name="clctArea" id="buyerCollectArea" style="width: 150px;"><br>
+      <option value="B.1">b.1</option>
+      <option value="b.2">b.2</option>
+      <option value="b.3">b.3</option>
+      <option value="b.4">b.4</option>
+    </select>
+    <br></br>
+
+    <button id="buy" class="buybtn">Buy</button>   <button id="cancel" class="buybtn"> Cancel </button>
+  </form>
+  </div>
+</div>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-storage.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBzqbE4LgHkUVw9FBxJ-u2it-usNNyu0WY",
+    authDomain: "savsale-e2e9f.firebaseapp.com",
+    projectId: "savsale-e2e9f",
+    storageBucket: "savsale-e2e9f.appspot.com",
+    databaseURL: "https://savsale-e2e9f-default-rtdb.firebaseio.com/",
+    messagingSenderId: "541940745557",
+    appId: "1:541940745557:web:a0c66b06e17d19fa2cdbdc",
+    measurementId: "G-YDTGGWYDF8"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+  <script type="text/javascript" src="data-services.js"></script>
+  <script type="text/javascript" src="cards.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+
+</body>
+
+</html>
